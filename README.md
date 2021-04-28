@@ -1,3 +1,19 @@
 # Fractal-CPP
-This program renders the Mandelbrot set in an 8-bit [.PPM](https://en.wikipedia.org/wiki/Netpbm) format. The coloring is escape-time based, every pixel is colored based on the number of iterations it goes through before tending to infinity. Realtime rendering and keyboard input with some basic UI is planned.
-![An example Render](https://github.com/DumbPsycho/Fractal-CPP/blob/main/img/MandelbrotGreenZoomed.jpg)
+This repos contains a program that renders the [Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set) set. It uses [SFML](https://www.sfml-dev.org/index.php) and is also multi-threaded. It has basic keyboard and mouse input. 
+
+# Controls
+* W -> Move up
+* S -> Move down
+* A -> Move left
+* D -> Move right
+* Space -> Write screenshot(screenshots are [PPMs](https://en.wikipedia.org/wiki/Netpbm) for now)
+* Mouse Wheel up -> Increase iterations
+* Mouse Wheel down -> Decrease iterations
+* Left click -> Zoom in
+* Right Click -> Zoom out
+
+# TODO
+* Basic GUI 
+* Customizable coloring functions
+* PNG screenshots instead of PPM
+* Other fractals
