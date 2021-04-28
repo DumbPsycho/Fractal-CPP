@@ -1,4 +1,4 @@
-# Fractal-CPP
+# Fractals-CPP
 This repos contains a program that renders the [Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set) set. It uses [SFML](https://www.sfml-dev.org/index.php) and is also multi-threaded. It has basic keyboard and mouse input. 
 
 # Controls
